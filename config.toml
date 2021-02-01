@@ -1,3 +1,36 @@
-baseURL = "http://example.org/"
+title = "The Presence of Klump"
+baseURL = "https://example.org/"
+theme = "zen"
 languageCode = "en-us"
-title = "My New Hugo Site"
+defaultContentLanguage = "en"
+pluralizelisttitles = false
+removePathAccents = true
+paginate = 10
+paginatePath = "page"
+rssLimit = 20
+
+[author]
+name = "Drake Talley"
+url = "https://draketalley.com"
+avatar = "path/to/some-image.jpg"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+section = [ "HTML", "RSS", "JSON" ]
+
+[params]
+contact = "robertdraketalley@gmail.com"
+copyright = "<!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).<!--/Creative Commons License-->"
+description = "Let's klump together"
+dateformat = "January 2, 2006"
+favicon = "apple-touch-icon.png"
+feedlinks = true
+footer = "Klumping Together"
+icon = "apple-touch-icon.png"
+image = "apple-touch-icon.png"
+imageMaxWidth = 400
+mobileMenu = true
+poweredby = false
+sidebar = true
+submitted = true
+

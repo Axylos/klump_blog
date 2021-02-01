@@ -8,6 +8,7 @@ removePathAccents = true
 paginate = 10
 paginatePath = "page"
 rssLimit = 20
+googleAnalytics = "UA-187907340-2"
 
 [author]
 name = "Drake Talley"
